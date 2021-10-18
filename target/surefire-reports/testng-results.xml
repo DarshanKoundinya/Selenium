@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-18T19:54:09 IST" name="Suite" finished-at="2021-10-18T19:54:55 IST" duration-ms="46084">
+    <groups>
+    </groups>
+    <test started-at="2021-10-18T19:54:09 IST" name="Test2" finished-at="2021-10-18T19:54:23 IST" duration-ms="13878">
+      <class name="Practice.E2EProjectOne.validateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Practice.E2EProjectOne.validateTitle@710b18a6]" started-at="2021-10-18T19:54:09 IST" name="initialize" finished-at="2021-10-18T19:54:20 IST" duration-ms="11009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="ValidatPageTitleAfterLogin()[pri:0, instance:Practice.E2EProjectOne.validateTitle@710b18a6]" started-at="2021-10-18T19:54:20 IST" name="ValidatPageTitleAfterLogin" finished-at="2021-10-18T19:54:20 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatPageTitleAfterLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Practice.E2EProjectOne.validateTitle@710b18a6]" started-at="2021-10-18T19:54:20 IST" name="teardown" finished-at="2021-10-18T19:54:23 IST" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Practice.E2EProjectOne.validateTitle -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-10-18T19:54:09 IST" name="Test" finished-at="2021-10-18T19:54:55 IST" duration-ms="46084">
+      <class name="Practice.E2EProjectOne.HomePage">
+        <test-method is-config="true" signature="BeforeTestExample()[pri:0, instance:Practice.E2EProjectOne.HomePage@a43ce46]" started-at="2021-10-18T19:54:09 IST" name="BeforeTestExample" finished-at="2021-10-18T19:54:18 IST" duration-ms="9725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestExample -->
+        <test-method signature="basePageNavigationLogin(java.lang.String,java.lang.String)[pri:0, instance:Practice.E2EProjectOne.HomePage@a43ce46]" started-at="2021-10-18T19:54:18 IST" name="basePageNavigationLogin" data-provider="getData" finished-at="2021-10-18T19:54:31 IST" duration-ms="12536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[darshankoundinya.learning@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dksr@1394]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationLogin -->
+        <test-method signature="basePageNavigationLogin(java.lang.String,java.lang.String)[pri:0, instance:Practice.E2EProjectOne.HomePage@a43ce46]" started-at="2021-10-18T19:54:31 IST" name="basePageNavigationLogin" data-provider="getData" finished-at="2021-10-18T19:54:42 IST" duration-ms="11169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dksr@1394]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationLogin -->
+        <test-method signature="basePageNavigationLogin(java.lang.String,java.lang.String)[pri:0, instance:Practice.E2EProjectOne.HomePage@a43ce46]" started-at="2021-10-18T19:54:42 IST" name="basePageNavigationLogin" data-provider="getData" finished-at="2021-10-18T19:54:53 IST" duration-ms="11291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigationLogin -->
+        <test-method is-config="true" signature="AfterTestExecution()[pri:0, instance:Practice.E2EProjectOne.HomePage@a43ce46]" started-at="2021-10-18T19:54:53 IST" name="AfterTestExecution" finished-at="2021-10-18T19:54:55 IST" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestExecution -->
+      </class> <!-- Practice.E2EProjectOne.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
